@@ -177,6 +177,20 @@ h1 {
     pointer-events: none;
 }
 
+.foto-corazon {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 30px auto;
+    clip-path: path("M125 220 C125 220, 10 150, 10 80 C10 30, 60 0, 125 50 C190 0, 240 30, 240 80 C240 150,125 220,125 220 Z");
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.foto-corazon:hover {
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
 /*Scroll personalizado*/
 
 /*
